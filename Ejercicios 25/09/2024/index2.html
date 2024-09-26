@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contacto 10</title>
+</head>
+<body>
+    <!-- Inicio del formulario -->
+    <form action="procesar_formulario.php" method="get">
+        <!-- Campo para el nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        
+        <!-- Campo para el correo electrónico -->
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
+        
+        <!-- Área de texto para el mensaje -->
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+        
+        <!-- Botón de envío -->
+        <input type="submit" value="Enviar">
+    </form>
+   
+</body>
+</html>
+
